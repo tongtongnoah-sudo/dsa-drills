@@ -1,7 +1,7 @@
 import timeit
-
-import matplotlib.pyplot as plt
 from collections.abc import Callable
+
+import matplotlib.pyplot as plt  # type: ignore
 
 arr_list_one = [10, 100, 1000, 10000]
 arr_list_two = [10, 50, 100]
